@@ -22,8 +22,8 @@ class FontAwesomeAsset extends AssetBundle
     public $sourcePath = '@vendor/fortawesome/font-awesome';
     public $publishOptions = [
         'only' => [
-            'fonts/',
-            'css/',
+            'fonts/*',
+            'css/*',
         ]
     ];
 
