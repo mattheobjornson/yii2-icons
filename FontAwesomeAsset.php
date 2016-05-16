@@ -20,6 +20,12 @@ use kartik\base\AssetBundle;
 class FontAwesomeAsset extends AssetBundle
 {
     public $sourcePath = '@vendor/fortawesome/font-awesome';
+    public $publishOptions = [
+        'only' => [
+            'fonts/',
+            'css/',
+        ]
+    ];
 
     /**
      * @inheritdoc
